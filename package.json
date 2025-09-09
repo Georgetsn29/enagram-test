@@ -5,9 +5,9 @@
   "private": true,
 "scripts": {
   "dev": "next dev",
+  "build": "next build",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d out",
-  "build": "next build",
   "start": "next start",
   "lint": "eslint",
   "postbuild": "shx touch out/.nojekyll"
