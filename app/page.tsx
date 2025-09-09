@@ -2,6 +2,8 @@
 import { useState } from "react";
 import { House, FileText, Mic, BarChart2, File } from "lucide-react";
 import styles from "./page.module.css";
+import './globals.css';
+
 
 function diffTexts(oldText: string, newText: string) {
   const oldWords = oldText.split(/\s+/);
