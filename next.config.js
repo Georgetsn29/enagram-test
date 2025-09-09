@@ -1,6 +1,6 @@
-/** @type {import('next').NextConfig} */
+
 const nextConfig = {
-  output: 'export',        // static export
+  output: 'export',        
   basePath: '/enagram-test',
   assetPrefix: '/enagram-test/',
   trailingSlash: true,
