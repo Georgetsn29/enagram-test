@@ -1,0 +1,81 @@
+.page {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.inputs textarea {
+  width: 100%;
+  min-height: 160px;
+  padding: 0.8rem;
+  border: 1px solid #F0F7FF;
+  border-radius: 0.5rem;
+  resize: vertical;
+}
+
+@media (min-width: 768px) {
+  .inputs {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.buttons button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.buttons button:first-child {
+  background: black;
+  color: white;
+}
+
+.buttons button:last-child {
+  background: #eee;
+}
+
+.result {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #fafafa;
+  border-radius: 0.5rem;
+  min-height: 80px;
+}
+
+.added {
+  background: #d1fae5;
+  color: #065f46;
+  padding: 0 3px;
+  border-radius: 3px;
+}
+
+.removed {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 0 3px;
+  border-radius: 3px;
+}
