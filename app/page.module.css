@@ -126,10 +126,9 @@
 
 .footerMenu {
   display: flex;
-  align-items: center;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
-  text-align: center;
   padding-block: 20px;
+  justify-content: center;
 }
 
 .main {
@@ -265,6 +264,11 @@
 .disabledBtn {
   background: #cbd5e1;
   cursor: not-allowed;
+}
+
+.swapIcon {
+  align-items: center;
+  display: flex;
 }
 
 .overlay {
@@ -423,10 +427,10 @@
   }
 
   .swapIcon {
-    align-self: center;
     font-size: 22px;
     margin: 6px 0;
     transform: rotate(90deg);
+    justify-content: center;
   }
 
   .actions {
