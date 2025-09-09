@@ -9,7 +9,8 @@
     "deploy": "npm run build && gh-pages -d out",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "postexport": "shx touch out/.nojekyll"
   },
   "dependencies": {
     "lucide-react": "^0.542.0",
@@ -25,6 +26,7 @@
     "eslint": "^9",
     "eslint-config-next": "15.5.2",
     "gh-pages": "^6.3.0",
+    "shx": "^0.4.0",
     "typescript": "^5"
   }
 }
