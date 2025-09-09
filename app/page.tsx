@@ -169,7 +169,7 @@ export default function Home() {
               ფორმატის შენარჩუნება
             </label>
           </div>
-          <button className={styles.newBtn}> + ახლის გახსნა</button>
+          <button className={styles.newBtn}> + ახალის გახსნა</button>
         </header>
 
         <div className={styles.content}>
