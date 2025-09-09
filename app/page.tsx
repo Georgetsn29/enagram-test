@@ -218,7 +218,7 @@ export default function Home() {
             </button>
           ) : (
             <button onClick={handleReset} className={styles.reloadBtn}>
-              თავიდან
+              &#10227; თავიდან
             </button>
           )}
         </div>
