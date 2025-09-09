@@ -12,4 +12,13 @@ const nextConfig: NextConfig = {
   // other config options if needed
 };
 
+module.exports = {
+  output: 'export',
+  basePath: '/enagram-test',
+  assetPrefix: '/enagram-test/',
+  images: {
+    unoptimized: true, // GitHub Pages doesn't support Next.js image optimization
+  },
+};
+
 export default nextConfig;
