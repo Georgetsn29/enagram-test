@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",        // enable static export
+  trailingSlash: true,     // adds a trailing slash for GitHub Pages
+  // other config options if needed
 };
 
 export default nextConfig;
